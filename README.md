@@ -11,5 +11,8 @@ npm install tailwindcss
 
 npx tailwindcss init
 
+npm install postcss-import
+
+npm install autoprefixer
 
 ```
