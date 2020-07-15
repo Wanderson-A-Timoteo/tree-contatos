@@ -3,7 +3,7 @@
 
 ## Dependências instaladas
 ```
-npm install -y
+npm init -y
 
 npm install next react react-dom
 

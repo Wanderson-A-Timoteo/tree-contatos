@@ -1,0 +1,30 @@
+{
+  "name": "tree-contatos",
+  "version": "1.0.0",
+  "description": "Projeto para apresentar todas suas formas de contato por meio de apenas um link",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wanderson-A-Timoteo/tree-contatos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wanderson-A-Timoteo/tree-contatos/issues"
+  },
+  "homepage": "https://github.com/Wanderson-A-Timoteo/tree-contatos#readme"
+}

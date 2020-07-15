@@ -1,10 +1,15 @@
 import React from 'react'
+import Link from '../components/Link'
 
 const Index = () => {
-  return {
+  return (
     <div>
-      <h1> DevPleno </h1>
+      <h1>
+        DevPleno
+      </h1>
       <ul>
+        <li> <Link href='aa'> AAA </Link> </li>
+        <li> Itens </li>
         <li> Itens </li>
         <li> Itens </li>
         <li> Itens </li>
@@ -14,6 +19,6 @@ const Index = () => {
         <li> Itens </li>
       </ul>
     </div>
-  }
+  )
 }
 export default Index
