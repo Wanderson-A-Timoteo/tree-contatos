@@ -15,4 +15,6 @@ npm install postcss-import
 
 npm install autoprefixer
 
+npm install prismic-javascript
+
 ```
