@@ -1,14 +1,18 @@
 import React from 'react'
 import Link from '../components/Link'
 import Prismic from 'prismic-javascript'
+import Head from 'next/head'
 
 
 const Index = props => {
   const items = props.data.body[0].items
   return (
-    <div className='max-w-xl'>
+    <div className='max-w-xl mx-auto'>
+      <Head>
+        <title>Contatos de Wanderson A. Timóteo</title>
+      </Head>
       <h1>
-        <img src={props.data.headerimage.url} alt='DevPleno' />
+        <img src={props.data.headerimage.url} alt='Wanderson A. Timóteo' />
       </h1>
       <ul>
         {items.map(item => {
