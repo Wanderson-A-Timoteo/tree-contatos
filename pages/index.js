@@ -1,24 +1,35 @@
 import React from 'react'
 import Link from '../components/Link'
+import Prismic from 'prismic-javascript'
 
-const Index = () => {
+
+const Index = props => {
+  const items = props.data.body[0].items
   return (
     <div className='max-w-xl'>
       <h1>
-        DevPleno
+        <img src={props.data.headerimage.url} alt='DevPleno' />
       </h1>
       <ul>
-        <li> <Link href='aa'> AAA </Link> </li>
-        <li> <Link href='aa'> AAA </Link> </li>
-        <li> Itens </li>
-        <li> Itens </li>
-        <li> Itens </li>
-        <li> Itens </li>
-        <li> Itens </li>
-        <li> Itens </li>
-        <li> Itens </li>
+        {items.map(item => {
+          return(
+          <li> 
+            <Link href={item.link.url}>{item.texto}</Link> 
+          </li>
+          )
+        })}
       </ul>
     </div>
   )
+}
+export async function getServerSideProps () {
+  const client = Prismic.client('https://tree-contatos.cdn.prismic.io/api/v2')
+  const page = await client.getSingle('home')
+  console.log(page)
+  return {
+    props : {
+      data: page.data
+    }
+  }
 }
 export default Index
