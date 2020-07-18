@@ -11,12 +11,10 @@ const Index = props => {
       <Head>
         <title>Contatos de Wanderson A. Timóteo</title>
       </Head>
-      <div className='py-6'>
-        <h1 className=''>
-          <img className='h-40 rounded-b-full rounded-l-full rounded-t-full shadow-2xl' src={props.data.headerimage.url} alt='Wanderson A. Timóteo' />
+        <h1>
+          <img className='mx-auto rounded-full h-32 mt-6' src={props.data.headerimage.url} alt='Wanderson A. Timóteo' />
         </h1>
-        <p className='py-4 italic text-gray-600'>@Wanderson-A-Timóteo</p>
-      </div>
+          <p className='text-center py-2 italic text-gray-600'>@Wanderson-A-Timóteo</p>
       <ul>
         {items.map(item => {
           return(
