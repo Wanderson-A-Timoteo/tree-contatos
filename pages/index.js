@@ -9,7 +9,7 @@ const Index = props => {
   return (
     <div className='max-w-xl mx-auto'>
       <Head>
-        <title>Contatos de Wanderson A. Timóteo</title>
+        <title>Wanderson A. Timóteo</title>
       </Head>
         <h1>
           <img className='mx-auto rounded-full h-32 mt-6' src={props.data.headerimage.url} alt='Wanderson A. Timóteo' />
