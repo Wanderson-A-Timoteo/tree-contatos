@@ -41,6 +41,9 @@ npm run dev
 * [NextJS](https://nextjs.org/) - Um Framework React.
 * [TailwindCSS](https://tailwindcss.com/) - Uma estrutura CSS de primeiro utilitário para criar rapidamente projetos personalizados.
 * [Prismic](https://prismic.io/) - Prismic é um sistema de gerenciamento de conteúdo, uma ferramenta para editar conteúdo online.
+* [Vercel](https://vercel.com/) - Efetuado deploy no Vercel,  uma plataforma em nuvem para sites estáticos e funções sem servidor que se encaixa perfeitamente no seu fluxo de trabalho. Ele permite que os desenvolvedores hospedem sites e serviços da Web Jamstack que são implantados instantaneamente, escalam automaticamente e não requerem supervisão, tudo sem configuração.
+* [Freemon](http://www.freenom.com/pt/) - A Freenom é o primeiro provedor de domínios grátis do mundo. Foi na Freemon que criei o dominio [wanderson.ga](https://wanderson.ga/) totalmente grátis.
+
 
 ## Autor:
 
