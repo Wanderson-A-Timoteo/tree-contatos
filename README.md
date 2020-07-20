@@ -7,7 +7,7 @@ Uma versão online pode ser conferida [wanderson.ga](https://wanderson.ga/)
 ## O Projeto:
 Este projeto é um clone de linktr.ee, onde podemos personalisar o link da forma que desejamos.<br>
 Conecte o público a todos os seus conteúdos com apenas um link.<br>
-A funcionalidade da aplicação é disponibilizar uma página web onde poderá ser apresentado todas as suas redes sociais, projetos, links para se cadastrar em um evento, entre outros. O mais importante é que podemos usar apenas um link personalisado onde conterá tudo. exemplo: wanderson.ga
+A funcionalidade da aplicação é disponibilizar uma página web onde poderá ser apresentado todas as suas redes sociais, projetos, links para se cadastrar em um evento, entre outros. O mais importante é que podemos usar apenas um link personalisado onde conterá tudo. exemplo: [wanderson.ga](https://wanderson.ga/)
 
 ## Dependências instaladas
 ```
