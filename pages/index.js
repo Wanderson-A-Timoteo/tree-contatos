@@ -15,6 +15,8 @@ const Index = props => {
           <img className='mx-auto rounded-full h-32 mt-6' src={props.data.headerimage.url} alt='Wanderson A. Timóteo' />
         </h1>
           <p className='text-center py-2 italic text-gray-600'>@Wanderson-A-Timóteo</p>
+          <p className='text-center py-2 italic text-gray-600'>Desenvolvedor de Software</p>
+
       <ul>
         {items.map(item => {
           return(
