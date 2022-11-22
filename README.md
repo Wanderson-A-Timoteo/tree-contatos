@@ -1,13 +1,13 @@
 # Tree-Contatos
 Projeto desenvolvido durante a Semana Fullstack Master do [DevPleno](https://devpleno.com).
-Uma versão online pode ser conferida [wanderson.ga](https://wanderson.ga/)
+Uma versão online pode ser conferida [wanderson Timóteo](https://wanderson.tk/)
 
 ![Preview](https://github.com/Wanderson-A-Timoteo/tree-contatos/blob/master/interface-tree-contatos.png?raw=true)
 
 ## O Projeto:
 Este projeto é um clone de linktr.ee, onde podemos personalisar o link da forma que desejamos.<br>
 Conecte o público a todos os seus conteúdos com apenas um link.<br>
-A funcionalidade da aplicação é disponibilizar uma página web onde poderá ser apresentado todas as suas redes sociais, projetos, links para se cadastrar em um evento, entre outros. O mais importante é que podemos usar apenas um link personalisado onde conterá tudo. exemplo: [wanderson.ga](https://wanderson.ga/)
+A funcionalidade da aplicação é disponibilizar uma página web onde poderá ser apresentado todas as suas redes sociais, projetos, links para se cadastrar em um evento, entre outros. O mais importante é que podemos usar apenas um link personalisado onde conterá tudo. exemplo: [wanderson.ga](https://wanderson.tk/)
 
 ## Dependências instaladas
 ```
